@@ -1,45 +1,34 @@
-import React from 'react';
-import { HiArrowNarrowRight } from 'react-icons/hi';
-import me from '../assets/18517.jpg';
-import { Link } from "react-scroll"; 
+import React from "react";
+import { Link } from "react-router-dom";
 
-const Home = () => {
-  return (
-    <div
-    name="home"
-    className="h-screen w-full bg-[#0a192f]"
-  >
-    <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-      <div className="flex flex-col justify-center h-full">
-        <h2 className="text-4xl sm:text-7xl font-bold text-"> I'm a Full Stack Web Developer </h2>
-        <p className="text-gray-500 py-4 max-w-md">
-           I have 2 years of experience in web development.
-          Currently, I love to work on web application using technologies like
-          React,Ruby,Rails and Bootstrap
-        </p>
-        <div>
-          <Link
-            to="About"
-            smooth
-            duration={500}
-            className="group text-blac w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
-          >
-            About Me
-            <span className="group-hover:rotate-90 duration-300">
-              <HiArrowNarrowRight size={25} className="ml-3" />
-            </span>
-          </Link>
-        </div>
-      </div>
-      <div>
-        <img
-          src={me}  
-          alt="my profile"
-          className="rounded-2xl mx-auto w-2/3 md:w-full"
-        />
-      </div>
-    </div>
-  </div>
-  );
+const HomePage = () => {
+return (
+<div className="container home-page-container">
+<h1>Welcome to My Portfolio</h1>
+<p>I am a junior developer with experience in web development and a passion for learning new technologies. Here are a few of my recent projects:</p>
+<div className="row">
+<div className="col-md-4">
+<Link to="/project1">
+<img src="/project1-thumbnail.jpg" alt="Project 1 thumbnail" />
+<h3>Project 1</h3>
+</Link>
+</div>
+<div className="col-md-4">
+<Link to="/project2">
+<img src="/project2-thumbnail.jpg" alt="Project 2 thumbnail" />
+<h3>Project 2</h3>
+</Link>
+</div>
+<div className="col-md-4">
+<Link to="/project3">
+<img src="/project3-thumbnail.jpg" alt="Project 3 thumbnail" />
+<h3>Project 3</h3>
+</Link>
+</div>
+</div>
+<p>To learn more about my skills and experience, check out my <Link to="/about">about</Link> page.</p>
+</div>
+);
 };
-export default Home;
+
+export default HomePage;

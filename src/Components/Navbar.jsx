@@ -24,9 +24,6 @@ function NavBar() {
           <Link class="nav-link text-light" to="/About">About</Link>
           </li>
           <li class="nav-item">
-          <Link class="nav-link text-light" to="/Skills">Skills</Link>
-          </li>
-          <li class="nav-item">
           <Link class="nav-link text-light" to="/Contact">Contact</Link>
           </li>
           
