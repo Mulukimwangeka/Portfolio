@@ -12,7 +12,8 @@ const HomePage = () => {
 return (
 <div className="container home-page-container">
 <h1>Welcome to My Portfolio</h1>
-<p>I am Ruth Muluki Mwangeka,a junior developer with experience in web development and a passion for learning new technologies. Here are a few of my recent projects and colloborations:</p>
+<p>Hi,I am Ruth Muluki Mwangeka,a developer with experience in web development and a passion for learning new technologies.
+<br></br> Here are a few of my recent projects and colloborations:</p>
 <div className="row">
 
 <div className="col-md-4">
