@@ -11,31 +11,41 @@ return (
 <div className="container home-page-container">
 <h1>Welcome to My Portfolio</h1>
 <p>Hi,I am Ruth Muluki Mwangeka</p>
-
+<br></br>
 <p>A developer with experience in web development and a passion for learning new technologies.
 <br></br> Here are a few of my recent projects and colloborations:</p>
 
 <div className="row pictures-container">
    <div className="col-md-4">
       <Link to="/super">Superhero</Link>
+      <br></br>
+      <br></br>
       <img src={logo} className="medium-image" alt="Superheroes"/>
-      <h6>A ruby on rails App</h6>
+        <br></br>
+        <br></br>
+      <h6>A Ruby on rails App</h6>
    </div>
    <div className="col-md-4">
       <Link to="/pizza">Pizza</Link>
+      <br></br>
+        <br></br>
       <img src={pizza} className="medium-image" alt="Pizza"/>
-      <h6>A ruby on rails App</h6>
+        <br></br>
+        <br></br>
+      <h6>A Ruby on rails App</h6>
    </div>
    <div className="col-md-4">
       <Link to="/Sanaa">Sanaa</Link>
+        <br></br>
+        <br></br>
       <img src={sanaa} className="medium-image" alt="Sanaa"/>
+        <br></br>
+        <br></br>
       <h6>Collaboration Project</h6>
    </div>
 </div>
-
-
-
-
+<br></br>
+<br></br>
 <p>To learn more about my skills and experience, check out my <Link to="/about">about</Link> page.</p>
 </div>
 );

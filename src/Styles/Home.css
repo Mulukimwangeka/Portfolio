@@ -95,12 +95,12 @@ a:focus {
 img:hover {
   transform: scale(1.2);
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
 .medium-image {
-  width: 150px;
-  height: 200px;
+  width: 140px;
+  height: 180px;
 }
 
 .pictures-container {
