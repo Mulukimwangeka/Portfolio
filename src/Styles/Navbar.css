@@ -1,23 +1,23 @@
 .navbar {
-    background-color: #333;
-  }
-  
-  .navbar-brand {
-    color: #fff;
-    font-size: 2rem;
-  }
-  
-  .nav-link {
-    color: #fff;
-    margin-right: 1rem;
-    text-decoration: none;
-  }
-  
-  .nav-link:hover {
-    color: #ccc;
-  }
-  
-  .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-  }
-  
+  background-color: #1c2331; /* Dark blue color for the background */
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1); /* Add a subtle box-shadow */
+}
+
+.navbar-brand {
+  color: #fff; /* White color for the brand text */
+  font-size: 2rem; 
+}
+
+.nav-item {
+  margin: 0.2rem; 
+}
+
+.nav-link {
+  color: #fff; 
+  font-size: 1.2rem; 
+  transition: all 0.2s ease-in-out; 
+}
+
+.nav-link:hover {
+  color: #3498db; /* Light blue color for the navigation links on hover */
+}
