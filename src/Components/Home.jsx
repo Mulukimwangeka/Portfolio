@@ -1,6 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../Styles/Home.css";
+import "../images/superheros.jpeg"
+import logo from "../images/wandacartoon.jpeg";
+import pizza from "../images/pizza.jpeg";
+import sanaa from "../images/sanaa.png";
+
+
 
 const HomePage = () => {
 return (
@@ -10,19 +16,21 @@ return (
 <div className="row">
 <div className="col-md-4">
 <Link to="/project1">
-<img src="/project1-thumbnail.jpg" alt="Project 1 thumbnail" />
-<h3>Project 1</h3>
+<img src={logo} id="img-mini" className="medium-image"/>
+<h3>Superheros</h3>
+<h6>A ruby on rails App</h6>
 </Link>
 </div>
 <div className="col-md-4">
 <Link to="/project2">
-<img src="/project2-thumbnail.jpg" alt="Project 2 thumbnail" />
-<h3>Project 2</h3>
+<img src={pizza} id="img-mini" className="medium-image"/>
+<h3>pizza</h3>
+<h6>A ruby on rails App</h6>
 </Link>
 </div>
 <div className="col-md-4">
 <Link to="/project3">
-<img src="/project3-thumbnail.jpg" alt="Project 3 thumbnail" />
+<img src={sanaa} id="img-mini" className="medium-image"/>
 <h3>Project 3</h3>
 </Link>
 </div>

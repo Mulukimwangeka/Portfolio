@@ -1,73 +1,98 @@
 .container {
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 3rem 0;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.home-page-container {
+  background-color: #bdbaba;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #333;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
   }
-  
-  .home-page-container {
-    background-color: #f2f2f2;
+  40% {
+    transform: translateY(-30px);
   }
-  
-  h1 {
-    font-size: 3rem;
-    margin-bottom: 2rem;
-    color: #333;
-    animation: bounce 2s infinite;
+  60% {
+    transform: translateY(-15px);
   }
-  
-  @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-      transform: translateY(0);
-    }
-    40% {
-      transform: translateY(-30px);
-    }
-    60% {
-      transform: translateY(-15px);
-    }
-  }
-  
-  p {
-    font-size: 1.2rem;
-    line-height: 1.5;
-    margin-bottom: 2rem;
-    color: #555;
-  }
-  
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .col-md-4 {
-    width: 30%;
-    margin: 1rem;
-    text-align: center;
-  }
-  
-  img {
-    width: 100%;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px #ccc;
-    margin-bottom: 1rem;
-  }
-  
-  h3 {
-    color: #333;
-  }
-  
-  a {
-    color: #333;
-    text-decoration: none;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.row {
+  display: block;  
+  flex-wrap: nowrap; 
+  justify-content: center;
+}
+
+
+.col-md-4 {
+  width: 20%;
+  margin: 1rem;
+  text-align: center;
+  display:inline-block; /* add this */
+  vertical-align:top; /* add this */
+}
+
+
+
+img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #ccc;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  color: #333;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #fff;
+  background-color: #333;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px #ccc;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+a:focus {
+    outline: none;
+    background-color: #555;
+    transform: scale(0.9);
     transition: all 0.2s ease-in-out;
-  }
-  
-  a:hover {
-    color: #fff;
-    background-color: #333;
-    padding: 0.5rem 1rem;
-    border-radius: 10px;
-  }
-  
+}
+
+
+img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.medium-image {
+  width: 150px;
+  height: 200px;
+}
