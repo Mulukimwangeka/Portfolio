@@ -45,13 +45,13 @@
     
   }
   
-  .t-id {
+  .a-id {
     color: #000; /* Change the color of the links to black */
     text-decoration: none;
     font-weight: bold; /* Make the links bold */
   }
   
-  .t-id:hover {
+  .a-id:hover {
     color: #fff; /* Change the color of the links on hover to white */
     background-color: #000; /* Change the background color of the links on hover to black */
     padding: 0.5rem 1rem;
