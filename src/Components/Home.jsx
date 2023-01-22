@@ -25,7 +25,7 @@ return (
 <div className="col-md-4">
 <Link to="/project2">
 <img src={pizza} id="img-mini" className="medium-image"/>
-<h3>pizza</h3>
+<h3>Pizza</h3>
 <h6>A ruby on rails App</h6>
 </Link>
 </div>
