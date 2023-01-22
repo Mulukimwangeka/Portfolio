@@ -12,7 +12,8 @@ const HomePage = () => {
 return (
 <div className="container home-page-container">
 <h1>Welcome to My Portfolio</h1>
-<p>Hi,I am Ruth Muluki Mwangeka,a developer with experience in web development and a passion for learning new technologies.
+<p>Hi,I am Ruth Muluki Mwangeka
+<br></br>A developer with experience in web development and a passion for learning new technologies.
 <br></br> Here are a few of my recent projects and colloborations:</p>
 <div className="row">
 
@@ -34,7 +35,7 @@ return (
 <Link to="/project3">
 <img src={sanaa} id="img-mini" className="medium-image"/>
 <h3>Sanaa Art</h3>
-<h6>Collaborations Project</h6>
+<h6>Collaboration Project</h6>
 
 </Link>
 </div>
