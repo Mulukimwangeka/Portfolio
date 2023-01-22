@@ -1,10 +1,4 @@
-.col-md-4{
-  width: 20%;
-  margin: 1rem;
-  text-align: center;
-  display:inline-block; /* add this */
-  vertical-align:top; /* add this */
-}
+
 .container {
   width: 100%;
   margin: 10 auto;
@@ -52,13 +46,14 @@ p {
 }
 
 
-.col-md-4 {
+/* .col-md-4 {
   width: 20%;
   margin: 1rem;
   text-align: center;
-  display:inline-block; /* add this */
-  vertical-align:top; /* add this */
+  display:inline-block; 
+  vertical-align:top; 
 }
+ */
 
 
 
@@ -106,4 +101,9 @@ img:hover {
 .medium-image {
   width: 150px;
   height: 200px;
+}
+
+.pictures-container {
+  display: flex;
+  flex-wrap: nowrap;
 }
