@@ -6,7 +6,7 @@
   }
   
   .contact-page-container {
-    
+
     background-color: #f2f2f2;
   }
   
@@ -45,4 +45,36 @@
     padding: 0.5rem 1rem;
     border-radius: 10px;
   }
-  
+
+.icon {
+margin-right: 10px; 
+}
+
+.icon-black{
+color:#000;
+}
+.icon-white{
+color:#fff;
+}
+.icon-green{
+color:#0072c6;
+}
+.icon-blue{
+color:#0072c6;
+}
+.icon-lg{
+font-size: 2rem;
+}
+.icon-md{
+font-size: 1.5rem;
+}
+.icon-sm{
+font-size: 1rem;
+}
+.icon-xs{
+font-size: 0.5rem;
+}
+
+
+
+
