@@ -1,4 +1,14 @@
+.id
+{
+    font-family: 'Roboto', sans-serif;
+    /* remove the underline */
+    text-decoration: none;
+    color: rgb(20, 19, 19);
+    font-size: 1.0rem;
+    font-weight: bold;
+  
 
+}
   
 .container {
   width: 80%;
@@ -27,7 +37,8 @@ p {
 h3 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  color: #333;
+  color: #555;
+  
 }
 
 ul {
@@ -40,4 +51,5 @@ li {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
   color: #333;
+  
 }

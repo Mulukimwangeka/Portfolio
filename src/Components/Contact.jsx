@@ -8,7 +8,7 @@ return (
 <div className="container contact-page-container">
 <h2>Contact Me</h2>
 <p>Thank you for visiting my portfolio. If you have any questions or would like to get in touch, please feel free to contact me through any of the following channels:</p>
-<ul>
+<ul className="id">
 <li>Email: <a href="mailto:mwangekaruth@gmail.com"><FaEnvelope className="icon" /> mwangekaruth@gmail.com</a></li>
 <li>GitHub: <a href="https://github.com/Mulukimwangeka" target="_blank" rel="noopener noreferrer"><FaGithub className="icon" /> https://github.com/Mulukimwangeka</a></li>
 <li>LinkedIn: <a href="https://www.linkedin.com/in/ruth-mwangeka-355b42203/" target="_blank" rel="noopener noreferrer"><FaLinkedin className="icon" /> https://www.linkedin.com/in/ruth-mwangeka-355b42203/</a></li>
