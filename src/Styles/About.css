@@ -12,7 +12,6 @@
 .r-id
 {
   padding: 0;
-  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   display: flex;
   background: #000;
@@ -20,7 +19,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  min-width: 15vh;
+  min-width: 18vh;
 
 }
 

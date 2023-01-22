@@ -8,6 +8,8 @@
   
 
 }
+
+  
 .container {
     width: 80%;
     margin: 0 auto;
@@ -43,13 +45,13 @@
     
   }
   
-  a {
+  .t-id {
     color: #000; /* Change the color of the links to black */
     text-decoration: none;
     font-weight: bold; /* Make the links bold */
   }
   
-  a:hover {
+  .t-id:hover {
     color: #fff; /* Change the color of the links on hover to white */
     background-color: #000; /* Change the background color of the links on hover to black */
     padding: 0.5rem 1rem;
