@@ -32,7 +32,9 @@ return (
 <div className="col-md-4">
 <Link to="/project3">
 <img src={sanaa} id="img-mini" className="medium-image"/>
-<h3>Project 3</h3>
+<h3>Sanaa Art</h3>
+<h6>Collaborations Project</h6>
+
 </Link>
 </div>
 </div>
