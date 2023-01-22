@@ -1,16 +1,20 @@
+.col-md-4{
+  width: 20%;
+  margin: 1rem;
+  text-align: center;
+  display:inline-block; /* add this */
+  vertical-align:top; /* add this */
+}
 .container {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   text-align: center;
   padding: 3rem 0;
 }
 
 .home-page-container {
-  width: 80%;
-  margin: 10;
-  text-align: center;
-  padding: 3rem 0;
-  background-color: #bdbaba;
+  
+  background-color: #f2f2f2;
 }
 
 h1 {
@@ -61,6 +65,7 @@ img {
   border-radius: 10px;
   box-shadow: 0px 0px 10px #ccc;
   margin-bottom: 1rem;
+  
 }
 
 h3 {
